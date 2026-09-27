@@ -24,11 +24,11 @@ All via environment, with sane defaults:
 
 ```bash
 CONFIG_SNAPSHOT_WATCHED="/etc/fstab:/etc/exports" \
-  ./config_backup_snapshotter.sh snapshot before_export_change
+  bash config_backup_snapshotter.sh snapshot before_export_change
 
 # make changes, then:
-./config_backup_snapshotter.sh diff     # what did I actually change?
-./config_backup_snapshotter.sh list     # the change journal
+bash config_backup_snapshotter.sh diff     # what did I actually change?
+bash config_backup_snapshotter.sh list     # the change journal
 ```
 
 ## Tests
