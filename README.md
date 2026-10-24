@@ -9,6 +9,8 @@
 [![content-policy](https://github.com/revisualize/config-backup-snapshotter/actions/workflows/content-policy.yml/badge.svg)](https://github.com/revisualize/config-backup-snapshotter/actions/workflows/content-policy.yml)
 [![license: all rights reserved](https://img.shields.io/badge/license-all%20rights%20reserved-lightgrey)](LICENSE)
 
+**Project page:** [revisualized.com/projects/config-backup-snapshotter](https://revisualized.com/projects/config-backup-snapshotter)
+
 Dated, manifested snapshots of the configuration files you care about, so that "what changed, and when" has an answer instead of a shrug. Snapshot before a change window, diff afterward, and keep a bounded history as an accidental-change journal.
 
 ## What it does
